@@ -19,6 +19,9 @@ func main() {
 	per.edad = 23                  // Asignamos el campo edad
 
 	// Mostramos por consola los campos de la estructura
-	fmt.Println("La persona ha sido creada y tiene nombres - apellidos - edad", per.nombres, per.apellidos, per.edad)
+	fmt.Println("***Estructura Persona***")
+	fmt.Println(" Nombres : ", per.nombres)
+	fmt.Println(" Apellidos : ", per.apellidos)
+	fmt.Println(" Edad : ", per.edad)
 
 }
